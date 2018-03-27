@@ -1,0 +1,31 @@
+{
+  "name": "wxapp-open-api",
+  "version": "1.0.0",
+  "description": "api library for wxapp open platform code with es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reezon/wxapp-open-api.git"
+  },
+  "keywords": [
+    "wxapp",
+    "wechat",
+    "weixin",
+    "wx"
+  ],
+  "author": "reezon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reezon/wxapp-open-api/issues"
+  },
+  "homepage": "https://github.com/reezon/wxapp-open-api#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "co-fs": "^1.2.0",
+    "crypto": "^1.0.1",
+    "formstream": "^1.1.0"
+  }
+}
