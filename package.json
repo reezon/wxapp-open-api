@@ -1,6 +1,6 @@
 {
   "name": "wxapp-open-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "api library for wxapp open platform code with es6",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/reezon/wxapp-open-api#readme",
   "dependencies": {
-    "axios": "^0.18.0",
     "co-fs": "^1.2.0",
     "crypto": "^1.0.1",
-    "formstream": "^1.1.0"
+    "formstream": "^1.1.0",
+    "httpx": "^2.1.2"
   }
 }
