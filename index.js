@@ -17,6 +17,8 @@ API.mixin(require('./lib/api_nearby'))
 API.mixin(require('./lib/api_open'))
 // 二维码规则
 API.mixin(require('./lib/api_qrcode_jump'))
+// 插件
+API.mixin(require('./lib/api_plugin'))
 // 二维码
 API.mixin(require('./lib/api_qrcode'))
 // 基本设置
