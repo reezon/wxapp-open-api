@@ -29,5 +29,7 @@ API.mixin(require('./lib/api_template'))
 API.mixin(require('./lib/api_tester'))
 // 用户
 API.mixin(require('./lib/api_user'))
+// 账号
+API.mixin(require('./lib/api_account'))
 
 module.exports = API
