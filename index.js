@@ -33,5 +33,7 @@ API.mixin(require('./lib/api_user'))
 API.mixin(require('./lib/api_account'))
 // 快速创建小程序
 API.mixin(require('./lib/api_fast_register_weapp'))
+// 内容安全
+API.mixin(require('./lib/api_sec_check'))
 
 module.exports = API
