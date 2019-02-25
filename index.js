@@ -35,5 +35,7 @@ API.mixin(require('./lib/api_account'))
 API.mixin(require('./lib/api_fast_register_weapp'))
 // 内容安全
 API.mixin(require('./lib/api_sec_check'))
+// 搜索widget
+API.mixin(require('./lib/api_mall'))
 
 module.exports = API
