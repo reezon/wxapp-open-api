@@ -21,6 +21,7 @@
 - 快速创建小程序
 - 内容安全
 - 搜索widget
+- 订阅消息
 
 
 ## Installation

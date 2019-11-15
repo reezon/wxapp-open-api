@@ -37,5 +37,7 @@ API.mixin(require('./lib/api_fast_register_weapp'))
 API.mixin(require('./lib/api_sec_check'))
 // 搜索widget
 API.mixin(require('./lib/api_mall'))
+// 订阅消息
+API.mixin(require('./lib/api_new_template'))
 
 module.exports = API
