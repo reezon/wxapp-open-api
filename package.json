@@ -1,6 +1,6 @@
 {
   "name": "wxapp-open-api",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "api library for wxapp open platform code with es6",
   "main": "index.js",
   "scripts": {
