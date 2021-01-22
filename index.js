@@ -45,5 +45,7 @@ API.mixin(require('./lib/api_subscribe_biz'))
 API.mixin(require('./lib/api_express_business'))
 // 获取小程序scheme码
 API.mixin(require('./lib/api_scheme'))
+// 小程序搜索
+API.mixin(require('./lib/api_search'))
 
 module.exports = API
