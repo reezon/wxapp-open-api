@@ -49,5 +49,7 @@ API.mixin(require('./lib/api_scheme'))
 API.mixin(require('./lib/api_search'))
 // 违规和申诉管理
 API.mixin(require('./lib/api_records'))
+// 动态消息
+API.mixin(require('./lib/api_updatable_message'))
 
 module.exports = API
