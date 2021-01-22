@@ -47,5 +47,7 @@ API.mixin(require('./lib/api_express_business'))
 API.mixin(require('./lib/api_scheme'))
 // 小程序搜索
 API.mixin(require('./lib/api_search'))
+// 违规和申诉管理
+API.mixin(require('./lib/api_records'))
 
 module.exports = API
