@@ -53,5 +53,7 @@ API.mixin(require('./lib/api_records'))
 API.mixin(require('./lib/api_updatable_message'))
 // 快速创建试用小程序
 API.mixin(require('./lib/api_fast_register_beta_weapp'))
+// 运维中心
+API.mixin(require('./lib/api_operation'))
 
 module.exports = API
