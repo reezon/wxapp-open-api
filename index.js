@@ -51,5 +51,7 @@ API.mixin(require('./lib/api_search'))
 API.mixin(require('./lib/api_records'))
 // 动态消息
 API.mixin(require('./lib/api_updatable_message'))
+// 快速创建试用小程序
+API.mixin(require('./lib/api_fast_register_beta_weapp'))
 
 module.exports = API
