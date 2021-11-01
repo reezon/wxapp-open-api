@@ -55,5 +55,7 @@ API.mixin(require('./lib/api_updatable_message'))
 API.mixin(require('./lib/api_fast_register_beta_weapp'))
 // 运维中心
 API.mixin(require('./lib/api_operation'))
+// 小程序用户隐私保护指引
+API.mixin(require('./lib/api_privacy'))
 
 module.exports = API
