@@ -57,5 +57,9 @@ API.mixin(require('./lib/api_fast_register_beta_weapp'))
 API.mixin(require('./lib/api_operation'))
 // 小程序用户隐私保护指引
 API.mixin(require('./lib/api_privacy'))
+// 违规和申诉管理
+API.mixin(require('./lib/api_record'))
+// 申请隐私接口
+API.mixin(require('./lib/api_apply_api'))
 
 module.exports = API
