@@ -63,5 +63,7 @@ API.mixin(require('./lib/api_record'))
 API.mixin(require('./lib/api_apply_api'))
 // 服务市场接口
 API.mixin(require('./lib/api_charge'))
+// ICP备案接口
+API.mixin(require('./lib/api_icp'))
 
 module.exports = API
